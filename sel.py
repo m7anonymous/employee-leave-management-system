@@ -12,7 +12,7 @@ options.add_argument("--autoplay-policy=no-user-gesture-required")
 
 driver = webdriver.Chrome(options=options)
 
-driver.get("https://www.youtube.com")
+driver.get("")
 driver.maximize_window()
 
 wait = WebDriverWait(driver, 15)
