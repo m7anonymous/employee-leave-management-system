@@ -31,7 +31,7 @@ def update_status(index, status):
 
 
 # Main program
-apply_leave("Rahul", 2, "Fever")
+apply_leave("Mahek", 2, "Fever")
 
 print("All Leave Requests:")
 print(view_leaves())
